@@ -1,0 +1,22 @@
+---
+
+layout: default
+
+---
+
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>Watch Latest Episodes</h2>
+        <hr>
+        <div class="anime-list">
+           {% for post in site.posts %}
+          <div class="anime">
+            <h4><a href="/{{ post.category | slugify }}#{{ post.title | slugify }}">{{post.category}} {{ post.title }}</a></h4>
+          </div>
+            {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        
+      </div>
+    </div>

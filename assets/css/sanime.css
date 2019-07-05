@@ -1,0 +1,28 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+.anime-list a{
+	display: block;
+	padding: 10px 20px;
+    color: #333;
+}
+.anime-list .anime{
+	border-bottom: 1px solid #F2F2F2;
+}
+.anime-holder iframe{
+	width:100%;
+}
+.anime-box{
+	margin-top:25px;
+}
+.anime-box h2{
+	color:#fff;
+}
+.bg-da{
+	background-color: black;
+}

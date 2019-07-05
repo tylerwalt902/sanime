@@ -3,7 +3,27 @@
 
     
     <url>
+        <loc>http://localhost:4000/kanata-no-astra/</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/anime</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/araburu-kisetsu-no-otome-domo-yo/</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/dmca/</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/dr-stone/</loc>
         <lastmod>2019-07-05</lastmod>
     </url>
     
@@ -13,7 +33,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/one-piece/</loc>
+        <loc>http://localhost:4000/joshikousei-no-mudazukai/</loc>
         <lastmod>2019-07-05</lastmod>
     </url>
     
@@ -25,7 +45,22 @@
 
     
     <url>
-        <loc>http://localhost:4000/one-piece-episode-1</loc>
+        <loc>http://localhost:4000/joshikousei-no-mudazukai-1</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/dr-stone-1/</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/kanata-no-astra-1</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/araburu-kisetsu-no-otome-domo-yo-1</loc>
         <lastmod>2019-07-05</lastmod>
     </url>
     

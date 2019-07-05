@@ -5,5 +5,5 @@ description: One day out of boredom, Tanaka decided to give her classmates nickn
 
 category: Joshikousei no Mudazukai
 permalink: /joshikousei-no-mudazukai/
-animeimg: /assets/images/astra.jpg
+animeimg: /assets/images/joshikousei.jpg
 ---

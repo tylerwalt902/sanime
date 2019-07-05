@@ -3,6 +3,6 @@ title: SAnime.me
 subname: Watch anime online in high quality
 description: Watch anime online in highest quality for free. Watching anime is now easy, watch all the latest episodes for free on SAnime.
 url: "https://sanime.me"
-include: ["_pages"]
 include:
   - _redirects
+  - _pages

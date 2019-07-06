@@ -55,7 +55,11 @@
          <h2 class="text-center">Watch Kanata no Astra Episode 1</h2>
         <div class="anime-holder">
           
-          <iframe width="720" height="720" src="https://www.rapidvideo.com/e/G4P7GJ99ZM" frameborder="0" marginwidth=0 marginheight=0 scrolling=no allowfullscreen></iframe>
+          Video Server: <SELECT NAME="options" ONCHANGE="document.getElementById('anime-vd').src = this.options[this.selectedIndex].value">
+<option value="https://www.rapidvideo.com/e/G4P7GJ99ZM">Rapidvideo</option>
+<option value="https://verystream.com/e/7yYPZWLiSDZ/">Verystream</option>
+</SELECT>
+<iframe width="720" height="720" src="https://www.rapidvideo.com/e/G4P7GJ99ZM" frameborder="0" marginwidth=0 marginheight=0 scrolling=no id="anime-vd" allowfullscreen></iframe>
           
          <nav aria-label="Page navigation">
           <ul class="pagination justify-content-center">
@@ -68,6 +72,26 @@
       </div>
     </div>
 
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://sanime-me.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
   </div>
   <!-- /.container -->
@@ -83,7 +107,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <script id="dsq-count-scr" src="//sanime-me.disqus.com/count.js" async></script>
 </body>
 
 </html>
